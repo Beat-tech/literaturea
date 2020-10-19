@@ -1,0 +1,61 @@
+.uliniciolorca {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 11vh;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+.uliniciolorca li {
+  float: left;
+  border-color: #282c34;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+}
+
+.uliniciolorca li a {
+  display: block;
+  color: #282c34;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* background-color: #9fa5a8; */
+}
+
+.uliniciolorca a:hover {
+  background-color: #111;
+}
+
+.piniciolorca {
+  background-color: #282c34;
+  color: white;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding-top: 5vh;
+  width: 100%;
+  text-align: center;
+}
+
+#lorcabiopic {
+  width: 49.7vw;
+  height: 35vh;
+}
+#barraca {
+  width: 49.7vw;
+  height: 35vh;
+}
+#romancero {
+  width: 49.7vw;
+  height: 35vh;
+}
+#manos {
+  width: 49.7vw;
+  height: 35vh;
+}

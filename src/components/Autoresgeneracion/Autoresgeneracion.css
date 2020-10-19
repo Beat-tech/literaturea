@@ -1,0 +1,50 @@
+.ulautoresg {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 11vh;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+.ulautoresg li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  border-color: #282c34;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: 0.5px;
+}
+
+.ulautoresg li a {
+  display: block;
+  color: #282c34;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #9fa5a8;
+}
+
+.ulautoresg a:hover {
+  background-color: #111;
+}
+
+.pautoresg {
+  background-color: #282c34;
+  color: white;
+  height: 6vh;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding-top: 5vh;
+  width: 100%;
+  text-align: center;
+}
+img {
+  width: 49.5vw;
+  height: 35vh;
+}

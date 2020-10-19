@@ -1,0 +1,43 @@
+.ulinicio {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  margin-top: 11vh;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  width: 100%;
+}
+
+.ulinicio li {
+  float: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 6vh;
+}
+
+.ulinicio li a {
+  display: block;
+  color: #282c34;
+  text-align: start;
+  padding: 14px 16px;
+  text-decoration: none;
+  /* background-color: #9fa5a8; */
+}
+
+.ulinicio a:hover {
+  background-color: #111;
+}
+
+.pinicio {
+  background-color: #282c34;
+  color: white;
+  height: 5vh;
+  position: fixed;
+  top: 0;
+  margin: 0;
+  padding-top: 5vh;
+  width: 100%;
+  text-align: center;
+}
