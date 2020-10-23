@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
-import './Lorcabio.css';
+import React, { Component } from "react";
+import "./Lorcabio.css";
 
 class Lorcabio extends Component {
   // constructor(props){
-    // super(props);
-    // this.state = {};
+  // super(props);
+  // this.state = {};
   // }
 
   // componentWillMount(){}
@@ -18,7 +18,9 @@ class Lorcabio extends Component {
 
   render() {
     return (
-      <div></div>
+      <div>
+        <h1>lorcabio</h1>
+      </div>
     );
   }
 }

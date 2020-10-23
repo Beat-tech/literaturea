@@ -74,7 +74,7 @@ export default Lorcatest;
 //   {
 //     question:
 //       "¿ Quién arrancaba los ojos a los cocodrilos y golpeaba el trasero de los monos?",
-//     answers: ["La guardia civil", "Los negros", "El rey de Harlem"],
+//     answers: ["La guardia civil", "Los niños", "El rey de Harlem"],
 //     rightAnswer: 2,
 //   },
 //   {
@@ -95,41 +95,11 @@ export default Lorcatest;
 
 // let aciertos = 0;
 // let counter = 0;
-// let container = document.getElementById("question");
-// let questions1 = [];
-// let randomNum;
-// function desordenar(zapato, rand) {
-//   let disorder = [...zapato.incorrect_answers];
-
-//   disorder.splice(rand, 1, zapato.correct_answer);
-
-//   return disorder;
-// }
-// fetch(`https://opentdb.com/api.php?amount=10&type=multiple`)
-//   .then((response) => response.json())
-//   .then((triviaData) => {
-//     triviaData.results.map((n) => {
-//       randomNum = Math.floor(Math.random() * 3);
-
-//       // console.log(randomNum)
-//       questions1.push({
-//         question: n.question,
-//         answers: desordenar(n, randomNum),
-//         rightAnswer: randomNum,
-//       });
-//     });
-//     // console.log(questions1)
-
-//     cambiarScreen();
-//   });
-
-// console.log(questions1);
 
 // function cambiarScreen(respuestaUsuario1) {
-//   console.log("pregunta numero" + counter);
-//   console.log(counter);
+
 //   if (counter != 0) {
-//     if (respuestaUsuario1 === questions1[counter - 1].rightAnswer) {
+//     if (respuestaUsuario1 === preguntas[counter - 1].rightAnswer) {
 //       aciertos++;
 //     } else {
 //       console.log("error");
@@ -137,7 +107,7 @@ export default Lorcatest;
 //   }
 //   let phase = `
 //              <article>
-//      <p> ${questions1[counter].question} </p>
+//      <p> ${preguntas[counter].question} </p>
 //         <div class="respuestas">
 //         <p class="answer" id="first" onclick= "change1(0)">${questions1[counter].answers[0]}</a>
 //         <p class="answer" id="second" onclick= "change1(1)">${questions1[counter].answers[1]}</a>

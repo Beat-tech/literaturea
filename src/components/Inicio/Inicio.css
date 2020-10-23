@@ -8,13 +8,16 @@
   overflow: hidden;
   background-color: white;
   width: 100%;
+  /* border-left: #282c34;
+  border-style: solid;
+  margin-left: 70px; */
 }
 
 .ulinicio li {
   float: left;
   display: flex;
   flex-direction: column;
-  margin-left: 6vh;
+  /* margin-left: 6vh; */
 }
 
 .ulinicio li a {
@@ -23,7 +26,7 @@
   text-align: start;
   padding: 14px 16px;
   text-decoration: none;
-  /* background-color: #9fa5a8; */
+  background-color: #9fa5a8;
 }
 
 .ulinicio a:hover {
@@ -41,13 +44,3 @@
   width: 100%;
   text-align: center;
 }
-/* .timelinediv {
-  display: flex;
-  flex-direction: row;
-}
-
-img {
-  position: relative;
-
-  z-index: 1000000000;
-} */
