@@ -22,7 +22,7 @@ class Nav extends Component {
       <div>
         <ul className="ulnav">
           <li>
-            <Link to="/home ">
+            <Link to="/home">
               INICIO
               {/* <img src="../../public/logo.svg" alt="" /> */}
             </Link>
