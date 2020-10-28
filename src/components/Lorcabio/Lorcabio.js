@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Lorcabio.css";
 
+
 class Lorcabio extends Component {
   // constructor(props){
   // super(props);
@@ -19,8 +20,8 @@ class Lorcabio extends Component {
   render() {
     return (
       <div>
-        <h1>lorcabio</h1>
-      </div>
+        <h1>biografia de lorca</h1>
+        </div>
     );
   }
 }

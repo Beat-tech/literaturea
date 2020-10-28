@@ -10,7 +10,8 @@ import Lorcatest from "./components/Lorcatest/Lorcatest";
 import Lorcapoet from "./components/Lorcapoet/Lorcapoet";
 import Presentacion from "./components/Presentacion/Presentacion";
 import Nav from "./components/Nav/Nav";
-
+import Header from "./components/Header/Header";
+// import titulos from "./titulos.js"
 function App() {
   return (
     <div>
@@ -18,10 +19,13 @@ function App() {
         <Switch>
           <Route exact path="/" component={Presentacion}></Route>
           <Route exact path="/home">
+            <Header titulo={"titulo del header"} />
             <Inicio />
             <Nav />
           </Route>
           <Route path="/generacion">
+          <Header titulo="perrete" />
+
             <Autoresgeneracion />
             <Nav />
           </Route>

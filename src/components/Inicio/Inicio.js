@@ -21,7 +21,7 @@ class Inicio extends Component {
   render() {
     return (
       <div>
-        <p className="pinicio">¿Qué periodo quieres visitar?</p>
+     
 
         <ul className="ulinicio">
           <li>

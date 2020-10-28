@@ -16,6 +16,7 @@ class Autoresgeneracion extends Component {
   // shouldComponentUpdate(){}
   // componentWillUpdate(){}
   // componentDidUpdate(){}
+  
 
   render() {
     return (

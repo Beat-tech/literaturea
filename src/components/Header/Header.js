@@ -2,11 +2,11 @@ import React, { Component } from 'react';
 import './Header.css';
 
 class Header extends Component {
-  // constructor(props){
-    // super(props);
-    // this.state = {};
-  // }
-
+  constructor(props){
+    super(props);
+    this.state = {
+    };
+  }
   // componentWillMount(){}
   // componentDidMount(){}
   // componentWillUnmount(){}
@@ -18,7 +18,9 @@ class Header extends Component {
 
   render() {
     return (
-      <div></div>
+    <div>
+      <p className="pinicio">{this.props.titulo}</p>
+      </div>
     );
   }
 }
